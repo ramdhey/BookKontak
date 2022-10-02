@@ -1,5 +1,49 @@
+/* default css */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+
+body{
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  background-color: #000000!important;
+  color: #fff !important;
+  font-family: 'Ubuntu', sans-serif !important;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+p, a, li, button, ul {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+
+
 .App {
   text-align: center;
+  background-color: #072561;
+  color: white;
+  min-height: 120vh;
 }
 
 .App-logo {
@@ -14,7 +58,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #072561;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +79,77 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/* Font */
+
+@font-face {
+  font-family: "BIREVA";
+  src: url('./fonts/BIREVA.otf');
+  
+}
+
+@font-face {
+  font-family: "X_BAMBI";
+  src: url('./fonts/X_BAMBI.TTF');
+  
+}
+
+@font-face {
+  font-family: "Spaced TTF";
+  src: url('./fonts/Spaced\ TTF.ttf');
+  
+}
+
+@font-face {
+  font-family: "Ubuntu-L";
+  src: url('./fonts/Ubuntu-L.ttf');
+  
+}
+
+
+
+
+/* END Font */
+
+
+/* Navbarnya */
+.namenya{
+  padding-right: 900px;
+  font-family: 'BIREVA', sans-serif !important;
+  
+}
+
+.logonav{
+  margin-left: -90px;
+}
+/* End Navbarnya */
+
+
+
+/* Home */
+.masuk:hover{
+  box-shadow : 0px 0px 10px #dfe2e7d8 !important;
+}
+
+.masuk{
+  font-family: 'X_BAMBI', sans-serif !important;
+  
+}
+
+
+
+.fotokontak{
+  width: 250px;
+  height: 180px;
+}
+
+.namanya{
+  font-family: 'X_BAMBI', sans-serif !important;
+
+}
+
+.nomornya{
+  font-family: 'Ubuntu-L', sans-serif !important;
 }
