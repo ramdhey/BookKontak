@@ -21,7 +21,7 @@ export const getListkontak = () => {
 
         axios({
             method:'GET',
-            url: 'http://localhost:3000/datanya',
+            url: 'https://dataapibukukontak.herokuapp.com/datanya',
             timeout:12000
         }).then((response)=>{
             // jika berhasil
